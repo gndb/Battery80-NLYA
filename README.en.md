@@ -1,4 +1,10 @@
-# Battery80 NLYA portable runtime
+# THUNDEROBOT LieRen 16 (雷神猎刃16 / R16) Battery80
+
+[中文](README.md) · [Download Windows runtime](https://github.com/gndb/Thunderobot-LieRen16-Battery80/releases/tag/v0.2.1) · [Tested machine and evidence](docs/TESTED_MODEL.md)
+
+For **雷神猎刃16 / THUNDEROBOT LieRen 16 (system model R16)**. LieRen is the pinyin spelling of the Chinese product name, not a claim of compatibility with another international product family.
+
+Tested reference: **THUNDEROBOT R16 / NLYA / TP181 / IT5570 rev07 / C009A0**, Intel Core i9-13900HX. The full SKU and GPU configuration have not been confirmed from saved evidence. The original machine has setting, read-back, cancel and close/reopen persistence evidence. Later saved snapshots show Windows 79%, EC 80%, AC connected and 0 W charging/discharging. These sparse samples do not certify a continuous 30-minute test. See [tested model](docs/TESTED_MODEL.md).
 
 Windows x64 native 80% battery maintenance panel for **THUNDEROBOT NLYA / TP181 / IT5570 rev07 / C009A0** only.
 
