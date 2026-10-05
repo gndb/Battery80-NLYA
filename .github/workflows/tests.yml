@@ -1,0 +1,20 @@
+name: Simulated tests
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  simulated:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          architecture: 'x64'
+      - name: Verify public files
+        run: python -B scripts/verify_release.py
+      - name: Run fake EC and service tests
+        run: python -B -m unittest discover -s tests -p 'test_*.py'
