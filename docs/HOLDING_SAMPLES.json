@@ -1,0 +1,58 @@
+{
+  "scope": "Selected fields from saved read-only telemetry; no paths, names, identifiers or raw logs",
+  "samples": [
+    {
+      "captured_utc": "2026-10-05T14:14:13.0748300Z",
+      "soc": 80,
+      "power_online": true,
+      "charging": false,
+      "discharging": false,
+      "charge_rate_mw": 0,
+      "discharge_rate_mw": 0,
+      "remaining_capacity_mwh": 50682
+    },
+    {
+      "captured_utc": "2026-10-05T14:14:28.1783443Z",
+      "soc": 80,
+      "power_online": true,
+      "charging": false,
+      "discharging": false,
+      "charge_rate_mw": 0,
+      "discharge_rate_mw": 0,
+      "remaining_capacity_mwh": 50682
+    },
+    {
+      "captured_utc": "2026-10-05T14:14:43.2655078Z",
+      "soc": 80,
+      "power_online": true,
+      "charging": false,
+      "discharging": false,
+      "charge_rate_mw": 0,
+      "discharge_rate_mw": 0,
+      "remaining_capacity_mwh": 50682
+    },
+    {
+      "captured_utc": "2026-10-05T14:14:58.3714311Z",
+      "soc": 80,
+      "power_online": true,
+      "charging": false,
+      "discharging": false,
+      "charge_rate_mw": 0,
+      "discharge_rate_mw": 0,
+      "remaining_capacity_mwh": 50682
+    },
+    {
+      "captured_utc": "2026-10-05T14:15:13.3922080Z",
+      "soc": 80,
+      "power_online": true,
+      "charging": false,
+      "discharging": false,
+      "charge_rate_mw": 0,
+      "discharge_rate_mw": 0,
+      "remaining_capacity_mwh": 50682
+    }
+  ],
+  "ec_commands": 0,
+  "full_charging_cycle_verified": false,
+  "thirty_minute_hold_verified": false
+}

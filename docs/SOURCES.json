@@ -1,0 +1,48 @@
+{
+  "scope": "Public references and local frozen hashes; no upstream source or firmware bundled",
+  "repositories": [
+    {
+      "url": "https://github.com/YMGPwcca/Mechrevo-Xingyao-14.git",
+      "commit": "64c735805bc25fdfbcca6239b9a84c1b4a2cb2df",
+      "used_for": "Static source inspection only; addresses are not a local control contract"
+    },
+    {
+      "url": "https://github.com/thekayrasari/excalibur.git",
+      "commit": "ec785aecc0c191c03e580b369542209517a432e2",
+      "used_for": "Static source inspection only; addresses are not a local control contract"
+    },
+    {
+      "url": "https://github.com/Mustafa-eksi/casper-wmi.git",
+      "commit": "49b3141e8bfbaee7a2143c7ce571c38ed796ba6f",
+      "used_for": "Static source inspection only; addresses are not a local control contract"
+    },
+    {
+      "url": "https://github.com/LaVashikk/Lecoo-Control-Center",
+      "commit": "236b51394f80118679be0927c5d724db0a503521",
+      "used_for": "Static source inspection only; addresses are not a local control contract"
+    },
+    {
+      "url": "https://github.com/minortex/ec_reverse",
+      "commit": "3a574dafe837571cc3176b4ed452a3fd84b3cd24",
+      "used_for": "Static source inspection only; addresses are not a local control contract"
+    },
+    {
+      "url": "https://github.com/OlekMazur/disasm51.git",
+      "commit": "a32d0adc80cfbf203745318900ced5ea94303b15",
+      "used_for": "Offline instruction decoding"
+    }
+  ],
+  "firmware": {
+    "rom_bytes": 16777216,
+    "rom_sha256": "a1fb84945cdd3a33880ae4f0f4b5ae52d0ad9e2caef9a9d3b4f4b3b8299692f7",
+    "candidate_sha256": "8b3977b9d78bc9c8518f99f33fed8728b1ca00331802b2d990d4f431af2f70a3",
+    "bundled": false
+  },
+  "driver": {
+    "url": "https://www.highrez.co.uk/Downloads/InpOut32/default.htm",
+    "package_url": "https://www.highrez.co.uk/downloads/InpOut32/InpOutInterfaceDriver_1501.zip",
+    "package_sha256": "35dd357767ea3a4a523fe31126eba1842572f2c060c5c1337d9659c2b0343997",
+    "sys_sha256": "f8965fdce668692c3785afa3559159f9a18287bc0d53abb21902895a8ecf221b",
+    "bundled": true
+  }
+}
