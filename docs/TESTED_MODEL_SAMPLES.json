@@ -1,0 +1,39 @@
+{
+  "scope": "Historical original production panel snapshots; no new hardware calls in documentation update",
+  "continuous_30_minute_validation": false,
+  "portable_021_new_deployment_hardware_validation": false,
+  "samples": [
+    {
+      "source_sha256": "e4c284cfd878052599df8e2e77d98bbdc6308039397d5c01a8e8c0407eb849e7",
+      "utc": "2026-10-05T20:26:57.991673+00:00",
+      "target_percent": 80,
+      "ec_soc_percent": 80,
+      "windows_soc_percent": 79,
+      "ac_online": true,
+      "charging": false,
+      "discharging": false,
+      "charge_rate_mw": 0,
+      "discharge_rate_mw": 0,
+      "remaining_capacity_mwh": 50425,
+      "learn_requested": false,
+      "last_read_valid": true,
+      "transport_fault": false
+    },
+    {
+      "source_sha256": "de9e010dd49489b12b234e372cc06005c8561920d2078b4e1f44ef31353c97fc",
+      "utc": "2026-10-05T20:49:30.417559+00:00",
+      "target_percent": 80,
+      "ec_soc_percent": 80,
+      "windows_soc_percent": 79,
+      "ac_online": true,
+      "charging": false,
+      "discharging": false,
+      "charge_rate_mw": 0,
+      "discharge_rate_mw": 0,
+      "remaining_capacity_mwh": 50395,
+      "learn_requested": false,
+      "last_read_valid": true,
+      "transport_fault": false
+    }
+  ]
+}

@@ -11,9 +11,15 @@
 | 原机80%保持 | 五次只读Windows遥测，约一分钟，80%/0W/容量50.682Wh不变 | 当次EC参数、低电量充至80%、30分钟保持 |
 | 公共源码模拟 | 选入的控制、握手、恢复与服务生命周期测试；结果见RELEASE_VALIDATION.json | 原项目全部77项研究/维护测试都随包发布 |
 | 公共源码UI | 模拟数据预览，原生DPI；截图来自原项目模拟验证 | 新部署路径上的真实硬件控制 |
-| GitHub Actions | 已提供Windows模拟测试工作流 | 云端工作流已实际运行成功；上传后需另看Actions结果 |
+| GitHub Actions | [首次发布工作流成功](https://github.com/gndb/Thunderobot-LieRen16-Battery80/actions/runs/37373425292)：65文件/33链接校验、70项纯模拟测试通过 | 不含硬件控制或实机验收 |
 
 公共模拟与打包验证结果在 [RELEASE_VALIDATION.json](../RELEASE_VALIDATION.json)，文件校验用 [SHA256SUMS.txt](../SHA256SUMS.txt)。公开数据 [HOLDING_SAMPLES.json](HOLDING_SAMPLES.json) 只选保必要字段，不含路径、设备序列号及原始日志。
+
+## 后续原机保存采样（2026-10-05）
+
+20:26:57与20:49:30 UTC的两份生产面板日志均显示目标80、EC SOC80、Windows SOC79、AC在线、充放电0 W、Learn未请求，读取有效且无传输故障。容量分别50425和50395 mWh。相隔约22.5分钟的稀疏采样不能证明这段时间持续停充，也不替代连续30分钟或完整充电周期验收。仅公开必要字段和原日志SHA256，见[本机参考](TESTED_MODEL.md)与[采样](TESTED_MODEL_SAMPLES.json)。
+
+此文档更新不重新执行这些硬件动作；也不把原机生产面板结果视为0.2.1便携包新部署验收。
 
 ## 尚需实机验收
 
