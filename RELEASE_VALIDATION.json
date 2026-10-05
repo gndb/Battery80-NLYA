@@ -1,0 +1,50 @@
+{
+  "application_version": "0.2.1-portable",
+  "revision": "0.2.1-r3",
+  "software_tests": 70,
+  "runtime_checks": [
+    {
+      "mode": "--self-test",
+      "exit_code": 0
+    },
+    {
+      "mode": "--setup-smoke",
+      "exit_code": 0
+    },
+    {
+      "mode": "--preview-smoke",
+      "exit_code": 0
+    }
+  ],
+  "negative_checks": [
+    {
+      "case": "_internal/assets/verified-policy.json",
+      "exit_code": 2
+    },
+    {
+      "case": "drivers/inpoutx64.sys",
+      "exit_code": 2
+    }
+  ],
+  "first_run_unbound_button_disabled": true,
+  "dpi": 192,
+  "frozen_code_matches_source": {
+    "battery_panel.py": true,
+    "battery_panel_core.py": true,
+    "battery_panel_dpi.py": true,
+    "battery_panel_widgets.py": true,
+    "inpout_status_probe.py": true,
+    "nlya_pmc2_query.py": true,
+    "nlya_policy_trial.py": true,
+    "portable_runtime.py": true,
+    "portable_entry.py": true
+  },
+  "nested_code_objects_scanned": 8390,
+  "private_path_hits": [],
+  "hardware_calls": 0,
+  "driver_loads": 0,
+  "live_packaged_control_verified": false,
+  "non_appearance_panel_AST_matches_r2": true,
+  "exe_sha256": "4a3a2405b3c85ce9a41e1987af39ed8499e7722e0efcc206600504dc1fa53ed3",
+  "frozen_blackgold_preview_visually_reviewed": true
+}

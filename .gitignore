@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.build/
+dist/
+*.spec
+deployment.json
+evidence/panel/*
+evidence/packaging/*
+evidence/ec/stage*/
